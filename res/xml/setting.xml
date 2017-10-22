@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/slide_settings" android:key="slide_settings">
+    <PreferenceCategory android:title="Slider Duration">
+        <ListPreference android:entries="@array/syncFrequency" android:title="@string/slide_settings_title" android:key="slide_shape" android:summary="@string/slide_settings_summary" android:entryValues="@array/syncFrequencyValues" />
+    </PreferenceCategory>
+    <cz.ami.android.wallpaper.AdPreference android:layout="@layout/ad_layout" />
+</PreferenceScreen>

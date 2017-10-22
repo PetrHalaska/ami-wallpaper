@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AMI Wallpaper</string>
+    <string name="app_name_short">AMI Wallpaper</string>
+    <string name="app_name_long">Slideshow AMI wallpaper</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">Slideshow Wallpaper</string>
+    <string name="slide_settings">Settings</string>
+    <string name="slide_settings_title">Slider Duration</string>
+    <string name="slide_settings_summary">Choose</string>
+    <!--<string name="admobid">a153493a7fa9c19</string>-->
+    <string name="admobid">a548612a1fa5c22</string>
+</resources>
