@@ -20,13 +20,6 @@
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
-            <artifactId>GoogleAdMobAdsSdk</artifactId>
-            <version>6.0.1</version>
-            <systemPath>${project.basedir}/repo/GoogleAdMobAdsSdk-6.0.1.jar</systemPath>
-            <scope>system</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
             <version>${android.version}</version>
             <scope>provided</scope>
