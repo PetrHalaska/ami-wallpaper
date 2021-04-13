@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cz.ami.android.wallpaper"
-    android:versionCode="3"
-    android:versionName="1.0.2" >
+    android:versionCode="4"
+    android:versionName="1.0.3" >
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="30" />
     <uses-feature android:name="android.software.live_wallpaper" />
-    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/icon" android:allowBackup="true" android:debuggable="false">
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/icon" android:allowBackup="true">
         <service android:label="@string/app_name" android:name="cz.ami.android.wallpaper.AMIWallpaper" android:permission="android.permission.BIND_WALLPAPER" android:enabled="true">
             <intent-filter android:priority="1">
                 <action android:name="android.service.wallpaper.WallpaperService" />
             </intent-filter>
             <meta-data android:name="android.service.wallpaper" android:resource="@xml/slideshowamiwallpaper" />
         </service>
-        <activity android:theme="@*android:style/Theme.Light.WallpaperSettings" android:label="@string/slide_settings" android:name="cz.ami.android.wallpaper.Setting" android:exported="true" />
-        <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@android:style/Theme.Light.WallpaperSettings" android:label="@string/slide_settings" android:name="cz.ami.android.wallpaper.Setting" android:exported="true" />
     </application>
 </manifest>
