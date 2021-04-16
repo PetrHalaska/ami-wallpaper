@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cz.ami.android.wallpaper</groupId>
     <artifactId>ami-wallpaper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>apk</packaging>
     <name>ami-wallpaper</name>
 
